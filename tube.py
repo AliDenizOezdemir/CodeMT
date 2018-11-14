@@ -54,7 +54,7 @@ for i in range(L):
 #    g = MO.RGFM(E[i],eta,H11,H12,S11,S12)
     dos[i] = -1/np.pi*np.real(np.trace(sigma[0:b,i*b:(i+1)*b]))
     
-#
+#change in comment
 plt.plot(E,dos)
 plt.xlabel('E')
 plt.ylabel('Self-energy from Sancho')
